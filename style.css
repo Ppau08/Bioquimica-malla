@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background: #ffffff;
-  color: #ffffff;
+  background: #f0eeeb;
+  color: #7d1f4e;
   padding: 20px;
 }
 
@@ -40,11 +40,11 @@ h1 {
 }
 
 /* Colores por categoría */
-.biologicas    { background-color: #6ec275; }
-.exactas       { background-color: #bd6060;}
-.clinicas      { background-color: #60bdb5; }
-.basicas       { background-color: #bda160; }
-.tecnologicas  { background-color: #9060bd; }
+.biologicas    { background-color: #f0eeeb; }
+.exactas       { background-color: #f0eeeb;}
+.clinicas      { background-color: #f0eeeb; }
+.basicas       { background-color: #f0eeeb; }
+.tecnologicas  { background-color: #f0eeeb; }
 
 /* Estados */
 .materia.regularizada::after {
