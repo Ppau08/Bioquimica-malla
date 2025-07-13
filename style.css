@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background: #1e1e1e;
-  color: #fff;
+  background: #0a0a0a;
+  color: #0a0a0a;
   padding: 20px;
 }
 
@@ -17,7 +17,7 @@ h1 {
 
 /* Años y cuatrimestres */
 .año {
-  border: 1px solid #555;
+  border: 1px solid #1e1e1e;
   padding: 10px;
   border-radius: 10px;
 }
@@ -40,17 +40,17 @@ h1 {
 }
 
 /* Colores por categoría */
-.biologicas    { background-color: #6c5ce7; }
-.exactas       { background-color: #00b894; }
-.clinicas      { background-color: #e17055; }
-.basicas       { background-color: #0984e3; }
-.tecnologicas  { background-color: #fdcb6e; }
+.biologicas    { background-color: #91eba3; }
+.exactas       { background-color: #eb9197; }
+.clinicas      { background-color: #91ebeb; }
+.basicas       { background-color: #ebd791; }
+.tecnologicas  { background-color: #b191eb; }
 
 /* Estados */
 .materia.regularizada::after {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 70%;
   height: 3px;
   background-color: #fff;
   top: 50%;
