@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#malla-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Años y cuatrimestres */
+.año {
+  border: 1px solid #555;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cuatrimestre {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Categorías */
+.materia {
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+/* Colores por categoría */
+.biologicas    { background-color: #6c5ce7; }
+.exactas       { background-color: #00b894; }
+.clinicas      { background-color: #e17055; }
+.basicas       { background-color: #0984e3; }
+.tecnologicas  { background-color: #fdcb6e; }
+
+/* Estados */
+.materia.regularizada::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  top: 50%;
+  left: 0;
+}
+
+.materia.aprobada {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
