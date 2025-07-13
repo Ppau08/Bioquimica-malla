@@ -1,8 +1,28 @@
-// Datos de ejemplo (agregamos más después)
 const materias = [
   {
     nombre: "Química General",
     categoria: "basicas",
+    año: 1,
+    cuatrimestre: 1,
+    correlativas: [],
+  },
+  {
+    nombre: "Álgebra y Geometría Analítica",
+    categoria: "exactas",
+    año: 1,
+    cuatrimestre: 1,
+    correlativas: [],
+  },
+  {
+    nombre: "Cálculo Diferencial e Integral",
+    categoria: "exactas",
+    año: 1,
+    cuatrimestre: 1,
+    correlativas: [],
+  },
+  {
+    nombre: "Biología General y Celular",
+    categoria: "biologicas",
     año: 1,
     cuatrimestre: 1,
     correlativas: [],
@@ -13,8 +33,25 @@ const materias = [
     año: 1,
     cuatrimestre: 2,
     correlativas: ["Química General"],
+  },
+  {
+    nombre: "Mecánica, Calor y Termodinámica",
+    categoria: "exactas",
+    año: 1,
+    cuatrimestre: 2,
+    correlativas: ["Álgebra y Geometría Analítica"],
+  },
+  {
+    nombre: "Morfología",
+    categoria: "biologicas",
+    año: 1,
+    cuatrimestre: 2,
+    correlativas: ["Biología General y Celular"],
   }
 ];
+
+// el resto del código (estados, renderMalla, toggleEstado) queda igual
+
 
 const estados = {}; // Guardamos si está regularizada o aprobada
 
